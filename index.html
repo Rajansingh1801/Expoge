@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Expoge</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <!-- internal css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font link  -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- boxicon  -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- fancybox  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <!-- flat icon  -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- owl -coursal  -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+</head>
+
+<body>
+    <div class="top-nav py-3 px-5 w-100">
+        <div class="container d-sm-flex">
+            <div>
+                <i class='bx bxs-phone-call mx-1'></i> <span>(012) 345 657 900</span>
+                <i class='bx bxs-envelope mx-1 ms-md-3 ms-1'></i> <span>support@yourdomain.com</span>
+            </div>
+            <div class="ms-auto">
+                <i class='bx bx-search-alt-2 mx-md-3 mx-1'></i>
+                <span><a href="#" class="mx-md-3 mx-1"> login</a></span>
+                <span><a href="#" class="mx-md-3 mx-1"> Signup</a></span>
+            </div>
+        </div>
+    </div>
+    <nav class="py-3">
+        <div class="container d-flex">
+            <img src="images/logo.png" alt="">
+            <div class="ms-auto">
+                <button class="nav-toggle ms-auto" id="nav-toggle">
+                    <span class="bar-top"></span>
+                    <span class="bar-mid"></span>
+                    <span class="bar-bot"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-content" id="navbar">
+        <div class="accordion" >
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Home
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="#">Startup Bussiness</a></li>
+                            <li><a href="#">Corpoarte</a></li>
+                            <li><a href="#">Agency</a></li>
+                            <li><a href="#">charity</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header text-white fw-500" id="headingTwo">
+                  <a href="#">About</a>  
+                </h2>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+                        Service
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="#">charity</a></li>
+                            <li><a href="#">Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Page
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="#">Project</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Testimonial</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Signup</a></li>
+                            <li><a href="#">Error</a></li>
+                            <li><a href="#">Comming Soon</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">
+                        Blog
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li> <a href="#">Blog Full width</a> </li>
+                            <li><a href="#"> Blog Left Slider</a></li>
+                            <li><a href="#">Blog Right Slider</a> </li>
+                            <li><a href="#">BLog Detail left Slider</a></li>
+                            <li><a href="#">BLog Detail right Slider</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header text-white  fw-500" id="headingSix">
+                   <a href="#"> Contact</a>
+                </h2>
+            </div>
+            <div class="px-2 py-5">
+                <h4>We're Available 24/ 7</h4>
+                <i class='bx bxs-phone-call mx-1 py-1'></i> <span>(012) 345 657 900</span> <br>
+                <i class='bx bxs-envelope mx-1 py-1'></i> <span>support@yourdomain.com</span>
+                <h4 class="py-4">Find Us</h4>
+                <div class="icon pb-5 py-3">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-dribbble'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header-content">
+                        <h1>Build Your</h1>
+                        <h1>Stuninng <span id="spin-word"></span>!</h1>
+                        <p class="my-3">We are a full-service digital agency, designing and building <br>
+                            beautiful digital products and experiences.</p> <br>
+                        <a href="#" class="btn zindex">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 m-auto">
+                    <div class="header-img">
+                        <img src="images/Data extraction.gif" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/graph4.png" alt="" class="graph img-fluid">
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 py-1">
+                    <h2 class="pt-5">Welcome to Expoge Multipurpose Agency Template. Learn About Us.</h2>
+                    <p class="pt-3 pe-5">Enim, luctus morbi, porta hymenaeos faucibus felis libero faucibus sapien
+                        tellus commodo praesent. Maecenas aptent netus cursus eget posue imperdiet eu odio odio non
+                        venenatis. Ut pulvinar aptent tellus sapien quis etiam. Cursus cubilia mi mollis primis
+                        placerat. Porta elit porttitor tincidunt condimentum, odio. Sem primis. Sit, eu dictum tempor
+                        venenatis placerat sem ligula metus pharetra vitae, laoreet vulputate justo, sit justo suscipit
+                        ultrices convallis eros a posuere cum vel duis semper.</p>
+                    <div class="box d-flex">
+                        <p>Sapien. Vivamus elementum tristique, penatibus semper nunc nibh lectus vehicula faucibus
+                            molestie
+                            gravida <br> nostra duis, lobortis inceptos commodo. Bibendu magnis est per per cum blandit
+                            volutpat
+                            dui dapibus et. <br> Taciti nulla praesent nostra nascetur semper nisl turpis. Fermentum
+                            accumsan et
+                            eros ipsum a.</p>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                </div>
+                <div class="col-lg-5 m-auto">
+                    <img src="images/about.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <img src="images/about2.png" alt="" class="img-fluid float-end">
+                    <a href="https://www.youtube.com/watch?v=pWOv9xcoMeY" data-fancybox="gallery"><i
+                            class='bx bx-play-circle'></i></a>
+                </div>
+                <div class="col-lg-7 m-auto">
+                    <h2 class="mb-md-5 mb-2">We Have the Ability to Get The Maximum Out Of Any Business Company</h2>
+                    <p>Dolor pulvinar leo. Velit ultricies vestibulum netus platea. Primis curabitur eget. Dis sagittis.
+                        Euismod tortor erat iaculis pulvinar magnis euismod nec. Lectus. Etiam tortor ullamcorper quam.
+                        Ut dapibus suscipit nullam ligula tristique et, auctor sollicitudin etiam dictumst leo dis. Sed
+                        aenean id varius etiam phasellus enim purus, rhoncus semper pharetra.
+
+                        Morbi sollicitudin orci condimentum imperdiet bibendum aptent tortor blandit aliquet molestie
+                        tincidunt tempor ipsum conubia massa hendrerit tristique congue donec aliquam vel tincidunt mus
+                        suspendisse condimentum mollis vitae eleifend consequat pede vel consectetuer. Nonummy
+                        ullamcorper, fames malesuada natoque tellus interdum et sed justo nostra sollicitudin metus
+                        Habitasse amet bibendum ultricies dui aliquam proin scelerisque Magnis euismod fringilla
+                        placerat. Pretium per cum. Accumsan dui. Amet hac, risus vestibulum. Hac non ligula potenti
+                        vitae gravida, suscipit, blandit leo torquent. Cum hymenaeos ornare quam convallis primis
+                        integer turpis adipiscing sit praesent at, porttitor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counts" class="counts py-4">
+        <div class="container">
+            <div class="row counters">
+                <div class="col-lg-3 col-md-6 text-center mb-2">
+                    <div class="count-content py-5">
+                        <div class="count-img text-center m-auto mb-3">
+                            <img src="images/consultation.png" alt="" class="img-fluid"> <br>
+                        </div>
+                        <span data-purecounter-start="0" data-purecounter-end="1580" data-purecounter-duration="1"
+                            class="purecounter"></span> <br>
+                        <p>Projects Done</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mt-6 mb-2">
+                    <div class="count-content py-5">
+                        <div class="count-img text-center m-auto mb-3">
+                            <img src="images/consultation.png" alt="" class="img-fluid"> <br>
+                        </div>
+                        <span data-purecounter-start="0" data-purecounter-end="1069" data-purecounter-duration="1"
+                            class="purecounter"></span> <br>
+                        <p>Consultant</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-2">
+                    <div class="count-content py-5">
+                        <div class="count-img text-center m-auto mb-3">
+                            <img src="images/consultation.png" alt="" class="img-fluid"> <br>
+                        </div>
+                        <span data-purecounter-start="0" data-purecounter-end="836" data-purecounter-duration="1"
+                            class="purecounter"></span> <br>
+                        <p>Award winning</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mt-6 ">
+                    <div class="count-content py-5">
+                        <div class="count-img text-center m-auto mb-3">
+                            <img src="images/consultation.png" alt="" class="img-fluid"> <br>
+                        </div>
+                        <span data-purecounter-start="0" data-purecounter-end="1339" data-purecounter-duration="1"
+                            class="purecounter"></span> <br>
+                        <p>Happy clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <section class="expose w-100">
+        <div class="row">
+            <div class="col-lg-6 side d-flex">
+                <img src="/video-gif/Reading book.gif" alt="" class="img-fluid m-auto">
+            </div>
+            <div class="col-lg-6 pt-5">
+                <div class="p-5 text-xlg-end text-center">
+                    <h2>Expoge Gives Best Agency Features</h2>
+                    <span>Montes orci libero imperdiet. Elit in platea ullamcorper ridiculus
+                        feugiat</span><br>
+                    <span>porta massa sed felis, consequat et suspendisse suscipit ipsum
+                        sapien.</span>
+                </div>
+                <div class="box">
+                    <div class="row box1">
+                        <div class="col-md-6">
+                            <div class="box-content p-md-5 p-2">
+                                <img src="images/research.png" alt="" class="img-fluid">
+                                <h5>Market Analysation</h5>
+                                <p>Cras vehicula lacus ipsum vivamus. Tempus eleme inceptos sapien sodales laoreet
+                                    luctus nisl ornare.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-content p-md-5 p-2">
+                                <img src="images/creativity.png" alt="" class="img-fluid">
+                                <h5>Creative Layout</h5>
+                                <p>Cras vehicula lacus ipsum vivamus. Tempus eleme inceptos sapien sodales laoreet
+                                    luctus nisl ornare.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-content p-md-5 p-2">
+                                <img src="images/consultation blue.png" alt="" class="img-fluid">
+                                <h5>Digital marketing</h5>
+                                <p>Cras vehicula lacus ipsum vivamus. Tempus eleme inceptos sapien sodales laoreet
+                                    luctus nisl ornare.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-content p-md-5 p-2">
+                                <img src="images/insight.png" alt="" class="img-fluid">
+                                <h5>Seo & Backlinks</h5>
+                                <p>Cras vehicula lacus ipsum vivamus. Tempus eleme inceptos sapien sodales laoreet
+                                    luctus nisl ornare.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- <section class="expose-2 position-relative w-100">
+        <div class="row">
+            <div class="col-6 side1">
+                <div class="text-end"></div>
+                <img src="images/about 2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 text-end">
+                <div class="ms-auto container expose-2-hd">
+                    <h1>We Have Great Market Analyst</h1>
+                    <p>Dignissim curabitur egestas in, etiam est tortor hymenaeos est <br> lobortis primis sociis
+                        aliquam ac
+                        lectus parturient. Sodales <br> hymenaeos ligula consequat risus nunc.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="service py-5">
+        <div class="container">
+            <div class="service-heading text-center">
+                <h5>This are the Things We Can Do for You</h5>
+                <h3>Let's Check Our Popular Services</h3>
+                <span class="empty"> </span> <br>
+                <p>Sagittis tempor, ultricies conubia, ultrices in, nisl diam natoque non blandit ornare est cubilia
+                    quis. Ridiculus, euismod. <br> Mollis. Pretium hendrerit cum porta, vulputate hac. Nascetur suscipit
+                    consectetuer eget. Cursus nonummy.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="service-content bg-white p-5 box-shdow">
+                        <div class="d-sm-flex mb-3">
+                            <span class="d-table box"><img src="images/consultation blue.png" alt="img" class="img-fluid"></span>
+                            <h4 class="box-text  m-auto">Market Research</h4>
+                        </div>
+                        <p>Euismod quam pellentes cubilia, habitas blandit ac molestie duis tristique placera auctor.
+                            Etiam pulvinar dis felis Netus nec posuere arcu placerat vitae tincidu portt tincidunt risus
+                            eleifend nun incept bland. Nostra rhoncus.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="service-content bg-white p-5 box-shdow">
+                        <div class="d-sm-flex mb-3">
+                            <span class="d-table box"><img src="images/award-symbol.png" alt="img" class="img-fluid"></span>
+                            <h4 class="box-text m-auto">Creative Layout</h4>
+                        </div>
+                        <p>Euismod quam pellentes cubilia, habitas blandit ac molestie duis tristique placera auctor.
+                            Etiam pulvinar dis felis Netus nec posuere arcu placerat vitae tincidu portt tincidunt risus
+                            eleifend nun incept bland. Nostra rhoncus.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="service-content bg-white p-5 box-shdow">
+                        <div class="d-sm-flex mb-3">
+                            <span class="d-table box"><img src="images/process.png" alt="img" class="img-fluid"></span>
+                            <h4 class="box-text m-auto">Management</h4>
+                        </div>
+                        <p>Euismod quam pellentes cubilia, habitas blandit ac molestie duis tristique placera auctor.
+                            Etiam pulvinar dis felis Netus nec posuere arcu placerat vitae tincidu portt tincidunt risus
+                            eleifend nun incept bland. Nostra rhoncus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video py-5">
+        <div class="continer">
+            <div class="video-head text-center">
+                <h5>These Awesome Works Proves Our Capability</h5>
+                <h3>Our Previous Work Done Successfully</h3>
+                <span class="empty"> </span> <br>
+                <p>Sagittis tempor, ultricies conubia, ultrices in, nisl diam natoque non blandit ornare est cubilia
+                    quis. <br> Ridiculus, euismod. Mollis. Pretium hendrerit cum porta, vulputate hac. Nascetur suscipit
+                    consectetuer <br> eget. Cursus nonummy.
+                </p>
+            </div>
+            <div class="video-content">
+                <video autoplay muted loop width="100%" height="120% preloader">
+                    <source src="video-gif/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-gallery">
+                    <div class="row px-lg-5">
+                        <div class="col-lg-5 ps-lg-5">
+                            <img src="images/video1.jpg" alt="" class="img-fluid">
+                            <h3>Creative Work for Summer Day</h3>
+                            <p>Creative, Abstract, Ceremony</p>
+                        </div>
+                        <div class="col-lg-7 pe-lg-5">
+                            <img src="images/video2.jpg" alt="" class="img-fluid">
+                            <h3>We Have Best Consultants</h3>
+                            <p>Creative, idea, Consultant</p>
+                        </div>
+                        <div class="col-lg-6 ps-lg-5">
+                            <img src="images/video3.jpg" alt="" class="img-fluid">
+                            <h3>We Have Best Consultants</h3>
+                            <p>Creative, idea, Consultant</p>
+                        </div>
+                        <div class="col-lg-6 pe-lg-5">
+                            <img src="images/video4.jpg" alt="" class="img-fluid">
+                            <h3>We Have Best Consultants</h3>
+                            <p>Creative, idea, Consultant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="client py-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 client-card m-auto mb-3">
+                    <img src="images/ceo.jpg" alt="img" class="img-fluid">
+                    <div class="client-card-cont d-flex">
+                        <div>
+                        <h4>Michael Larry gould</h4>
+                        <span>CEO of Expoge</span>
+                    </div>
+                        <div class="icon  m-auto">
+                            <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-7 ps-md-5 m-auto">
+                    <div class="client-content box-shd">
+                        <div class="client-head">
+                            <h5>Our Satisfied Client's</h5>
+                            <h3>From Getting Started</h3>
+                            <span class="empty"> </span> <br>
+                            <p>Sagittis tempor, ultricies conubia, ultrices in, nisl diam natoque <br> non blandit
+                                ornare
+                                est cubilia quis.</p>
+                        </div>
+                        <div class="one owl-carousel owl-theme owl-dots-none">
+                            <div class="item">
+                                <h3>Ronaldo devis</h3>
+                                <span class="empty"></span>
+                                <p>Dolor ad maecenas est pulvinar massa lorem nascetur pede iaculis torquent id velit
+                                    Hendrerit fermentum venenatis.</p>
+                                <div class="icon  m-auto">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>Jarvis stark</h3>
+                                <span class="empty"></span>
+                                <p>Dolor ad maecenas est pulvinar massa lorem nascetur pede iaculis torquent id velit
+                                    Hendrerit fermentum venenatis.</p>
+                                <div class="icon  m-auto">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>Victoria Alen</h3>
+                                <span class="empty"></span>
+                                <p>Dolor ad maecenas est pulvinar massa lorem nascetur pede iaculis torquent id velit
+                                    Hendrerit fermentum venenatis.</p>
+                                <div class="icon  m-auto">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>Mountdevis fylse</h3>
+                                <span class="empty"></span>
+                                <p>Dolor ad maecenas est pulvinar massa lorem nascetur pede iaculis torquent id velit
+                                    Hendrerit fermentum venenatis.</p>
+                                <div class="icon  m-auto">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="rate py-md-5 py-1">
+        <div class="container">
+            <div class="rate-head text-center py-5">
+                <h5>Pricing Plan</h5>
+                <h3>Our Packages</h3>
+                <span class="empty"> </span> <br>
+                <p>Taciti ligula neque non nisi sapien sapien sociosqu proin fusce aptent sit amet <br> tellus id.
+                    Dictum
+                    mattis nisl nullam ligula.</p>
+            </div>
+            <div class="row mx-xlg-5">
+                <div class="col-lg-4 py-md-4 py-1">
+                    <div class="box py-md-3 py-1">
+                        <div class="box-head d-flex py-4 px-4">
+                            <div>
+                                <h4>Basic Plan</h4>
+                                <span>Normal Package</span>
+                            </div>
+                            <h2 class="ms-auto">$59</h2>
+                        </div>
+                        <hr>
+                        <div class="list py-4 px-3">
+                            <ul>
+                                <li><i class='bx bx-check'></i> Maecenas etiam laoreet ultricies.</li>
+                                <li><i class='bx bx-check'></i>Turpis dictumst porttitor conubia.</li>
+                                <li><i class='bx bx-check'></i>Dictum viverra sodales tempor.</li>
+                                <li><i class='bx bx-check'></i>Ac rutrum litora imperdiet montes.</li>
+                                <li><i class='bx bx-check'></i>Nisl cras luctus sociis vulputate.</li>
+                                <li><i class='bx bx-check'></i>Imperdiet odio laoreet habitant.</li>
+                                <li><i class='bx bx-check'></i>Malesuada etiam parturient Nisi.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <a href="#" class="btn mx-3 py-2 my-4">Buy Now</a>
+                        <p class="px-3">100% Money Back Guarantee</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4">
+                    <div class="box py-3">
+                        <div class="box-head d-flex py-4 px-4">
+                            <div>
+                                <h4>Popular Plan</h4>
+                                <span>Business Package</span>
+                            </div>
+                            <h2 class="ms-auto">$299</h2>
+                        </div>
+                        <hr>
+                        <div class="list py-4 px-3">
+                            <ul>
+                                <li><i class='bx bx-check'></i> Maecenas etiam laoreet ultricies.</li>
+                                <li><i class='bx bx-check'></i>Turpis dictumst porttitor conubia.</li>
+                                <li><i class='bx bx-check'></i>Dictum viverra sodales tempor.</li>
+                                <li><i class='bx bx-check'></i>Ac rutrum litora imperdiet montes.</li>
+                                <li><i class='bx bx-check'></i>Nisl cras luctus sociis vulputate.</li>
+                                <li><i class='bx bx-check'></i>Imperdiet odio laoreet habitant.</li>
+                                <li><i class='bx bx-check'></i>Malesuada etiam parturient Nisi.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <a href="#" class="btn mx-3 py-2 my-4">Buy Now</a>
+                        <p class="px-3">100% Money Back Guarantee</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4">
+                    <div class="box py-3">
+                        <div class="box-head d-flex py-4 px-4">
+                            <div>
+                                <h4>Premium Plan</h4>
+                                <span>Exclusive Package</span>
+                            </div>
+                            <h2 class="ms-auto">$499</h2>
+                        </div>
+                        <hr>
+                        <div class="list py-4 px-3">
+                            <ul>
+                                <li><i class='bx bx-check'></i> Maecenas etiam laoreet ultricies.</li>
+                                <li><i class='bx bx-check'></i>Turpis dictumst porttitor conubia.</li>
+                                <li><i class='bx bx-check'></i>Dictum viverra sodales tempor.</li>
+                                <li><i class='bx bx-check'></i>Ac rutrum litora imperdiet montes.</li>
+                                <li><i class='bx bx-check'></i>Nisl cras luctus sociis vulputate.</li>
+                                <li><i class='bx bx-check'></i>Imperdiet odio laoreet habitant.</li>
+                                <li><i class='bx bx-check'></i>Malesuada etiam parturient Nisi.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <a href="#" class="btn mx-3 py-2 my-4">Buy Now</a>
+                        <p class="px-3">100% Money Back Guarantee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="left bg-colblue text-md-end text-center py-5 px-8">
+                    <h1 class="pt-5">Download Our Official Apps and Get <br> Continuous Help to Run Your Business <br>
+                        Easily!</h1>
+                    <p>Dapibus inceptos scelerisque, fames elementum eget pulvinar parturient pede <br> tortor class,
+                        posuere
+                        aliquam. Posuere hac, malesuada sollicitudin sollicitudin <br> cum conubia hendrerit rhoncus
+                        blandit
+                        ullamcorper porta natoque, fames. <br> Suscipit viverra iaculis nisi tempus. Turpis sociis
+                        ligula
+                        accumsan sagittis.</p>
+                    <a href="#" class="btn btn1 my-md-3 my-1 me-md-3 mb-md-4 mb-1">Google store</a> <a href="#"
+                        class="btn btn2 my-md-3 my-1 mb-md-4 mb-1">Apple store</a>
+                </div>
+            </div>
+            <div class="col-md-5 m-auto">
+                <div class="right px-5 py-5">
+                    <h1>Connect With Us For Our Consultation</h1>
+                    <p>Dictumst vulputate non sem mi condimentum et. Enim, luctus rutrum <br> facilisis justo ut rutrum,
+                        senectus.</p>
+                    <input type="email" name="email" id="" placeholder="Email.."> <br class="brr">
+                    <a href="#" class="btn btn3">Send</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog py-md-5 py-2">
+        <div class="container">
+            <div class="blog-head text-center py-md-5 py-2">
+                <h5>Blog</h5>
+                <h3>Latest News</h3>
+                <span class="empty"> </span> <br>
+                <p>Taciti ligula neque non nisi sapien sapien sociosqu proin fusce aptent sit amet <br> tellus id.
+                    Dictum mattis nisl nullam ligula.</p>
+            </div>
+            <div class="row mx-md-5">
+                <div class="col-lg-5 mb-3">
+                    <div class="left">
+                        <img src="images/blog-img1.jpg" alt="" class="img-fluid blog-img1">
+                        <div class="blog1-content px-4">
+                            <div class="blog-icon py-3 d-flex">
+                                <div><i class='bx bx-time me-1'></i><span class="">25 Jan 2020</span> </div>
+                                <div><i class='bx bx-conversation text-end me-1'></i> <span class="span1">23
+                                        comments</span></div>
+                            </div>
+                            <h4>Convallis fermentum convall lobort massa nunc cubilia nostra.</h4>
+                            <p>Purus ultrices suspendisse. Montes volutpat aliquet placerat, malesuada magna a enim
+                                magna vestibulum suscipit eleifend sem consequat consequat nam. Montes. Ultricies ut
+                                natoque leo convallis facilisis aliquet enim hendrerit Ligula netus est taciti magna
+                                nisl urna vitae scelerisque posuere, adipiscing primis sociis nostra.</p> <br>
+                            <a href="#" class="btn pb-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="blog2-content d-md-flex">
+                        <div class="img">
+                            <img src="images/blog-img-2.jpg" alt="" class="img-fluid blog-img2">
+                        </div>
+                        <div class="content ps-4">
+                            <div class="blog-icon pt-5 pb-3 d-flex">
+                                <div><i class='bx bx-time me-1'></i><span class="">25 Jan 2020</span> </div>
+                                <div><i class='bx bx-conversation text-end me-1'></i> <span class="span1">23
+                                        comments</span></div>
+                            </div>
+                            <h4>Auctor quam massa semp donec. Class id sagittis nam urna.</h4>
+                            <p>Torquent egestas litora ipsum massa senectus consequat ullamcorper. Inceptos curabitur
+                                primis mattis nisi.</p>
+                            <a href="#" class="btn">Read More..</a>
+                        </div>
+                    </div>
+                    <div class="blog2-content mt-3 d-md-flex">
+                        <div class="img">
+                            <img src="images/blog-img-2.jpg" alt="" class="img-fluid blog-img2">
+                        </div>
+                        <div class="content ps-4">
+                            <div class="blog-icon py-5 d-flex">
+                                <div><i class='bx bx-time me-1'></i><span class="">25 Jan 2020</span> </div>
+                                <div><i class='bx bx-conversation text-end me-1'></i> <span class="span1">23
+                                        comments</span></div>
+                            </div>
+                            <h4>Auctor quam massa semp donec. Class id sagittis nam urna.</h4>
+                            <p>Torquent egestas litora ipsum massa senectus consequat ullamcorper. Inceptos curabitur
+                                primis mattis nisi.</p>
+                            <a href="#" class="btn">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fellow py-lg-5 py-1">
+        <div class="container py-md-5 py-1">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+              <div class="fellow-head">
+                <h5>Our Valuable Partners</h5>
+                <h3>Fellows We Have</h3>
+                <span class="empty"> </span> <br>
+                <p>Potenti platea, neque senectus hac elit suspendisse imperdiet ultrices tincidunt vel sodales. Imperdiet euismod.</p>
+              </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-sm-3 col-6">
+                            <img src="images/envato.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <img src="images/codecanyon.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <img src="images/themeforest.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <img src="images/graphicriver.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-md-5">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget">
+                    <div class="footer-logo mb-1">
+                      <a href="#"><img src="images/logo-white.png" alt="images" class="img-fluid"></a>
+                    </div>
+                    <div class="text-white py-4">
+                        <p class="text-white">Posuere nam natoque nec rhoncus malesuad phasel ante. Enim lacinia cubilia mat quam place.</p>
+                    </div>
+                    <ul class="widget-contact-info text-white icon">
+                    <li><span class="me-3"><i class="bx bxs-phone" aria-hidden="true"></i></span> (012) 345 657 900</li>
+                    <li><span class="me-3"><i class="bx bxs-envelope" aria-hidden="true"></i></span> info@yourdomain.com</li>
+                    <li><span class="me-3"><i class="bx bxl-skype" aria-hidden="true"></i></span> Expoge.multipurpose</li>
+                    <li><span class="me-3"><i class="bx bxs-map" aria-hidden="true"></i></span>40 Towerhil, Melbourne, Australia.</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <h3 class="footer-widget-title position-relative pb-1 mb-1 text-white">Recent News</h3>
+                <span class="empty"></span>
+                <ul> 
+                      <li class="mt-4">
+                          <a href="#">Integer magnis vivam phasel. Lacus porttitor vestibulum ligula auctor.</a>
+                          <div class="post-meta f-12 mt-1">
+                              <span class="d-inline-block">25 January 2020</span>
+                          </div>
+                      </li>
+                      <li>
+                          <a href="#">Rhonc maecen aliqu varius conubia nullam hymenaeos rhoncus.</a>
+                          <div class="post-meta mt-1">
+                              <span class="d-inline-block">25 January 2020</span>
+                          </div>
+                      </li>
+                      <li>
+                          <a href="#">Quisque tellus erat tortor elementu aenean litora.</a>
+                          <div class="post-meta mt-1">
+                              <span class="d-inline-block">22 January 2020</span>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <h3 class="footer-widget-title position-relative  pb-1 mb-1 text-white">Links</h3>
+                <span class="empty"></span>
+                <ul>
+                  <li class="mt-4"><a href="#">Our Services</a></li>
+                  <li><a href="#">How It Work</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Free Consultation</a></li>
+                  <li><a href="#">Mission and Vision</a></li>
+                  <li><a href="#">Account Settings</a></li>
+                  <li><a href="#">License</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-8 col-md-6">
+              <div class="footer-widget text-white">
+                  <h3 class="footer-widget-title position-relative pb-1 mb-1 text-white">Subscribe</h3>
+                  <span class="empty"></span>
+                  <p class="pt-4 text-white">Dictum velit cum arcu interd faucib urna inceptos imperdiet dignissim.</p>
+                  <form class="mt-2">
+                      <input  name="subscribe" type="text" placeholder="Subscribe">
+                      <a class="btn mt-1">Subscribe</a>
+                  </form>
+                  <ul class="social-site d-inline-block text-secondery mt-2 d-flex">
+                      <li><a href="#"><i class="bx bxl-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class='bx bxl-twitter' aria-hidden="true" ></i></a></li>
+                      <li><a href="#"><i class="bx bxl-linkedin" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-instagram" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-dribbble" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="border">
+        <div class="copyright-2 bg-secondery">
+          <div class="container">
+                      <ul class="d-table w-100 text-white d-flex justify-content-between">
+                          <li class="float-left">Expoge @ 2020. All Right Reserved.</li>
+                          <li class="text-end text-white"><a href="#">Privacy Policy</a> | <a href="#"> Terms & Conditions</a></li>
+                      </ul>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script>
+        new PureCounter();
+
+        (function () {
+            var toggle = document.querySelector('.nav-toggle');
+            toggle.addEventListener('click', function (e) {
+                this.classList.toggle('opened');
+            });
+        })();
+
+        $(document).ready(function () {
+            $("#nav-toggle").click(function () {
+                $("#navbar").animate({
+                    width: "toggle"
+                });
+            });
+        });
+
+
+        $(document).ready(function () {
+            $('.one').owlCarousel({
+                loop: true,
+                autoplay: true,
+                smartSpeed: 1000,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                margin: 30,
+                dots: false,
+                nav: false,
+                responsive: {
+
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    1024: {
+                        items: 2
+                    },
+                    1200: {
+                        items: 2
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
